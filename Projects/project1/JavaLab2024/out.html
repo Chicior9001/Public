@@ -1,0 +1,10 @@
+<HTML><body><svg width="500.000000" height="275.700000">
+<defs>	<filter id="f1" x="-100%" y="-100%" width="300%" height="300%">
+		<feOffset result="offOut" in="SourceAlpha" dx="5" dy="5" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="5" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+	</filter>
+</defs>	<polygon points="500.000000,100.000000 220.000000,20.000000 400.000000,25.000000 70.000000,33.000000 " fill="url(#g1)" />
+	<ellipse rx="50.500000" ry="75.700000" cx="100.000000" cy="200.000000" fill="blue" filter="url(#f1)"   transform=" rotate(1.000000 0.000000 0.000000)" />
+	<ellipse rx="20.000000" ry="40.000000" cx="40.000000" cy="50.000000"  transform=" rotate(-50.000000 0.000000 0.000000) translate(50.000000 60.000000) scale(1.000000 1.500000)"/>
+</svg></body></HTML>

@@ -1,0 +1,6 @@
+git remote add trash https://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@github.com/Chicior9001/trash.git
+
+git remote add JavaLab2024 https://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@github.com/Chicior9001/JavaLab2024.git
+
+git remote add JavaLab2024_Home https://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@github.com/Chicior9001/JavaLab2024_Home.git
+
