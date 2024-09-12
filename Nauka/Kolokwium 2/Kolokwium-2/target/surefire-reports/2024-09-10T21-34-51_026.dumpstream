@@ -1,0 +1,5 @@
+# Created at 2024-09-10T21:34:52.626
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Studia\Semestr II\Programowanie obiektowe\Nauka\Kolokwium 2\Kolokwium-2\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

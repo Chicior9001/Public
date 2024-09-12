@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!--<html lang="en" xmlns:th="http://www.thymlead.org">-->
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>EEG image</title>
+</head>
+<body>
+<h3>Image:</h3>
+    <img th:src="@{'data:image/png;base64,' + ${image}}" alt="image"/>
+<!--    <p th:text="${image}"></p>-->
+</body>
+</html>
+<!--
+<html>
+<body>
+<img src=http://localhost:8080/image />
+</body>
+</html>-->
