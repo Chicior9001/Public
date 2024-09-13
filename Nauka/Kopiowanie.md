@@ -30,7 +30,7 @@ System.out.println(copiedCity.getName()); // "Warsaw"
 ```
 Ten sposób pozwala na pełną kontrolę nad tym, jakie pola chcesz kopiować, a jakie nie, bez konieczności używania Cloneable.
 
-2. Metoda kopiująca (Factory Method)
+### 2. Metoda kopiująca (Factory Method)
 Zamiast tworzyć konstruktor kopiujący, możesz stworzyć metodę, która zwróci kopię obiektu. To często stosowane podejście w sytuacjach, gdy nie chcesz przeciążać konstruktora.
 
 Przykład:
@@ -61,7 +61,7 @@ System.out.println(copiedCity.getName()); // "Warsaw"
 ```
 To rozwiązanie daje większą elastyczność, jeśli na przykład chcesz w przyszłości dodać inne opcje kopiowania (np. głęboka kopia, zmodyfikowana kopia, itp.).
 
-4. Kopiowanie "ręczne" (Manual Field Copying)
+### 4. Kopiowanie "ręczne" (Manual Field Copying)
 Jest to technika polegająca na ręcznym przypisywaniu każdego pola nowego obiektu, na wzór podejścia z konstruktorem kopiującym. Może być stosowane ad-hoc, np. w klasach, które nie mają wielu pól, i gdy nie chcesz implementować specjalnego konstruktora lub metody kopiującej.
 
 Przykład:
@@ -85,7 +85,7 @@ public class City {
 ```
 W tym podejściu ręcznie tworzysz nowy obiekt i kopiujesz do niego pola. Jest to użyteczne przy prostych obiektach, ale dla bardziej złożonych klas może być trudne do utrzymania.
 
-5. Kopiowanie głębokie (Deep Copy) za pomocą rekurencji
+### 5. Kopiowanie głębokie (Deep Copy) za pomocą rekurencji
 Jeśli obiekt zawiera inne obiekty jako pola (kompozycja), i zależy ci na głębokim kopiowaniu (czyli kopiowaniu również obiektów zależnych), możesz napisać metodę, która rekurencyjnie tworzy nowe kopie obiektów zależnych.
 
 Przykład:
