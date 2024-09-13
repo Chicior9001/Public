@@ -1,4 +1,4 @@
-1. Konstruktor kopiujący (Copy Constructor)
+### 1. Konstruktor kopiujący (Copy Constructor)
 Jest to podejście, które polega na stworzeniu specjalnego konstruktora w klasie, który przyjmuje inny obiekt tej samej klasy i kopiuje jego pola. To jest jeden z najprostszych sposobów na kopiowanie obiektów.
 
 Przykład:
