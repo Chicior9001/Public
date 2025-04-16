@@ -1,7 +1,8 @@
 # Public
-https://github.com/Kwi4t3k <br>
-https://www.samouczekprogramisty.pl/kategorie/#kurs-programowania-Java <br>
-https://github.com/michaldziuba03/java <br>
-https://www.freecodecamp.org/news/java-unit-testing/ <br>
-https://www.sqlitetutorial.net/sqlite-java/ <br>
-https://github.com/kdmitruk/java_lab_2024
+|                  |                                           |
+|------------------|-------------------------------------------|
+| Czinga           | https://github.com/Kwi4t3k                |
+| Dmitri           | https://github.com/kdmitruk/java_lab_2024 |
+| JakiśGościu      | https://github.com/michaldziuba03/java    |
+| MartiniSigmaRizz | https://github.com/Martin1234543          |
+| Łukaszenko       | https://github.com/Lukasz1x               |
